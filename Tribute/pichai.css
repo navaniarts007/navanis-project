@@ -1,0 +1,94 @@
+body {
+    background-color: #1e2648;
+    margin: 10%;
+}
+
+/* Styling the Title and giving
+shadow to the title */
+#title {
+    text-align: center;
+    text-shadow: white;
+    font-size: 7vh;
+}
+
+/* Setting width and display
+type of image */
+img {
+    display: relative;
+    width: 60%;
+}
+
+p{
+color: white;
+font-size: 20px;
+
+}
+h1{
+color: rgba(240, 248, 255, 0.91);
+}
+
+/* Setting font color and font
+size of the image-caption */
+#caption {
+    font-size: 17px;
+    font-family: Gill Sans;
+    color: rgb(255, 255, 255);
+}
+
+/* Styling the content of the page like-
+padding, font-size, font color etc.*/
+div#tribute-data {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 20px 20px 20px #3c539654;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+}
+
+/* Styling the title of the content */
+h1.title {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+
+/* Styling the link provided at the end */
+#tribute-link {
+    text-decoration: none;
+    color: rgb(234, 234, 234);
+}
+small{
+    color:aliceblue ;
+}
+h3{
+    color: aliceblue;
+}
+
+.name1{
+    color: rgb(0, 191, 255);
+}
+.title1 {
+    text-shadow: 5px 5px 10px black;
+}
+
+@media (max-width:380px) {
+.title1{
+    font-size: 25px;
+}
+p{
+    font-size: 15px;
+    line-height: 1.8;
+}
+}
+
+@media (max-width:480px) {
+.title1{
+    font-size: 26px;
+}
+p{
+    font-size: 20px;
+    line-height: 1.8;
+}
+}
+
